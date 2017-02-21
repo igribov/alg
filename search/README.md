@@ -34,3 +34,5 @@ def binarySearchReqursive(A, i, j, x):
         return m
     return binarySearchReqursive(A, i, j, x)
 ```
+
+Время работы *O*(*lg* `n`)
