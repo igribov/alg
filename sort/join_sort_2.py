@@ -24,12 +24,12 @@ def MergeSort(A):
     return merge(A1, A2)
     
 
-A = [random.randint(1,500) for i in range(200000)]
+A = [random.randint(1,500) for i in range(20)]
 
 start = time.time()
 A1 = MergeSort(A)
 end = time.time()
-print(end - start)
+print(end - start, A1)
 
 A = [random.randint(1,500) for i in range(200000)]
 
