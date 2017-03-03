@@ -5,7 +5,7 @@ def merge(A, p, q, r):
     B = A[p:q] + [INF]
     C = A[q:r] + [INF]
     
-    i = j = 0
+    i,j = 0,0
     for k in range(p, r):
         if B[i] <= C[j] :            
             A[k] = B[i]
